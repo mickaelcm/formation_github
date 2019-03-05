@@ -9,14 +9,15 @@ and open the template in the editor.
         <title>Formation à Git et GitHub</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="js/principal.js"></script>
     </head>
     <body>
         <div>Page de présentation pour la formation sur Git et GitHub</div>
         <br>
         <form method="post">
             Voulez-vous faire cette formation ?
-            <input type="button" id="buttonOui" value="Oui">
-            <input type="button" id="BoutonNon" value="Non">
+            <input type="button" id="buttonOui" value="Oui" onclick="ClickSurBouton('Oui')">
+            <input type="button" id="BoutonNon" value="Non" onClick="ClickSurBouton('Non')">
         </form>
     </body>
 </html>
